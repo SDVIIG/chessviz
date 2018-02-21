@@ -14,11 +14,11 @@ int main()
 	{'|','S','K','L','F','C','L','K','S','|'},
 	};
 	
-	for (i=0; i<8; i++){
-		for (j=0; j<10; j++){
+	for (i = 0; i < 8; i++) {
+		for (j  = 0; j < 10; j++) {
 			printf("%c", mas[i][j]);
 		}
-	printf("\n");
+		printf("\n");
 	}
 	
 	return 0;
