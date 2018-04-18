@@ -21,3 +21,4 @@ build/output.o: output.c
 .PHONY: clean
 clean:
 	rm -rf build/*.o
+
