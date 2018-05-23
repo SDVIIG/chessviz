@@ -67,12 +67,12 @@ CTEST(move_suite, move_slon)
 	move(mass, 2, 4, 2, 6);
 	int check6 = move_checking(mass, 6, 2, 4, 4); 
 
-	const int expected1 = 0;
-	const int expected2 = 0;
-	const int expected3 = 0;
-	const int expected4 = 0;
-	const int expected5 = 0;
-	const int expected6 = 1;
+	const int expected1 = 1;
+	const int expected2 = 1;
+	const int expected3 = 1;
+	const int expected4 = 1;
+	const int expected5 = 1;
+	const int expected6 = 0;
 
 	ASSERT_EQUAL(expected1, check1);
 	ASSERT_EQUAL(expected2, check2);
